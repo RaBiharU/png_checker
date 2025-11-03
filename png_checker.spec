@@ -2,7 +2,7 @@
 
 
 a = Analysis(
-    ['src/png_checker.py'],
+    ['png_checker.py'],
     pathex=[],
     binaries=[],
     datas=[],
@@ -35,4 +35,5 @@ exe = EXE(
     target_arch=None,
     codesign_identity=None,
     entitlements_file=None,
+    icon=['icon.ico'],
 )
