@@ -19,7 +19,7 @@
 
 ### 注意点
 
-- 動作確認はWindows 11(64bit)とUbuntu 24.04でのみ行っています。
+- 動作確認はWindows 11(64bit)でのみ行っています。
 - Windowsで初回起動時、「WindowsによってPCが保護されました」という表示が出るかもしれませんが、[詳細情報] → [実行] で起動できます。(変なものは仕込んでないので大丈夫です！)
 
 ## 2. コードを改変・再ビルドしたい人向け(Python環境必要)
@@ -28,7 +28,7 @@
 
 ### 必要なもの
 
-- Python(3.12.3で開発)
+- Python(3.12.4で開発)
 - requirements.txt に記載のライブラリ
 - png_checker.py(ソースコード本体)
 - icon.ico(アイコンファイル)(一応、歌奏絆さんの髪の毛の色のカラーパレットです)
@@ -50,7 +50,7 @@
     (dist フォルダの中に新しい png_checker.exe が生成されます)
 
     ```
-    pyinstaller -F -w png_checker.py --onefile --noconsole --icon=icon.ico
+    pyinstaller -F -w png_checker.py --icon=icon.ico
     ```
 
     なお、コードはChatGPTが作ってくれたものを手直ししただけです…
