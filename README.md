@@ -15,7 +15,7 @@
 
 ### ダウンロード
 
-ここ(Releasesページ)から最新版の png_checker.exe をダウンロードしてください。
+[ここ(Releasesページ)](https://github.com/RaBiharU/png_checker/releases/tag/v1.0.0)から最新版の png_checker.exe をダウンロードしてください。
 
 ### 注意点
 
